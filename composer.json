@@ -1,0 +1,31 @@
+{
+    "name": "aiiro/laravel-graphql-factory",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aiiro",
+            "email": "aiiro@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Aiiro\\GraphQL\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aiiro\\GraphQL\\Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^4.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aiiro\\GraphQL\\GraphQLFactoryServiceProvider"
+            ]
+        }
+    }
+}
