@@ -57,4 +57,7 @@ If a type schema of the table exists, it will be skipped and continue to generat
 php artisan generate:type --all
 ```
 
+## License
+This project is released under MIT License. See [MIT License](LICENSE)
+ for the detail.
 
