@@ -2,6 +2,7 @@
 
 namespace Aiiro\GraphQL;
 
+use Aiiro\GraphQL\Commands\GenerateType;
 use Illuminate\Support\ServiceProvider;
 
 class GraphQLFactoryServiceProvider extends ServiceProvider
@@ -24,6 +25,7 @@ class GraphQLFactoryServiceProvider extends ServiceProvider
         $this->mergeConfigFrom($configPath, 'graphql-factory');
 
         $this->commands([
+            GenerateType::class,
         ]);
     }
 }
