@@ -2,6 +2,9 @@
 
 return [
 
+    /**
+     * Set the path to generate type schema file
+     */
     'path' => 'app',
 
     /**
